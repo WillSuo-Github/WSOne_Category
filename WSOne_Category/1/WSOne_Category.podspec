@@ -32,6 +32,6 @@ Pod::Spec.new do |s|
 
   s.framework  = "UIKit", "Foundation"
 
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "CTMediator"
 
 end
