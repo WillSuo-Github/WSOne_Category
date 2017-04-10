@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C51B38B61C50216324391BA /* libPods-WSOne_Category.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD1E02F2CF4141E58FCC9CA /* libPods-WSOne_Category.a */; };
+		5477C0661E9B252F00D5E2DA /* CTMediator+BussinessOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 5477C0651E9B252F00D5E2DA /* CTMediator+BussinessOne.m */; };
 		549E29C71E9A7FC500686D69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E29C61E9A7FC500686D69 /* main.m */; };
 		549E29CA1E9A7FC500686D69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E29C91E9A7FC500686D69 /* AppDelegate.m */; };
 		549E29CD1E9A7FC500686D69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E29CC1E9A7FC500686D69 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5477C0641E9B252F00D5E2DA /* CTMediator+BussinessOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+BussinessOne.h"; sourceTree = "<group>"; };
+		5477C0651E9B252F00D5E2DA /* CTMediator+BussinessOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+BussinessOne.m"; sourceTree = "<group>"; };
 		549E29C21E9A7FC500686D69 /* WSOne_Category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSOne_Category.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		549E29C61E9A7FC500686D69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		549E29C81E9A7FC500686D69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -151,6 +154,8 @@
 		549E29F81E9A7FDB00686D69 /* WSOne_Category */ = {
 			isa = PBXGroup;
 			children = (
+				5477C0641E9B252F00D5E2DA /* CTMediator+BussinessOne.h */,
+				5477C0651E9B252F00D5E2DA /* CTMediator+BussinessOne.m */,
 			);
 			path = WSOne_Category;
 			sourceTree = "<group>";
@@ -356,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5477C0661E9B252F00D5E2DA /* CTMediator+BussinessOne.m in Sources */,
 				549E29CD1E9A7FC500686D69 /* ViewController.m in Sources */,
 				549E29CA1E9A7FC500686D69 /* AppDelegate.m in Sources */,
 				549E29C71E9A7FC500686D69 /* main.m in Sources */,
@@ -594,6 +600,7 @@
 				549E29F11E9A7FC500686D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		549E29F21E9A7FC500686D69 /* Build configuration list for PBXNativeTarget "WSOne_CategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +609,7 @@
 				549E29F41E9A7FC500686D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		549E29F51E9A7FC500686D69 /* Build configuration list for PBXNativeTarget "WSOne_CategoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +618,7 @@
 				549E29F71E9A7FC500686D69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
