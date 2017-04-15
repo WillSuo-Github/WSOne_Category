@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WSOne_Category"
-  s.version      = "4"
+  s.version      = "5"
   s.summary      = "WSOne_Category."
   s.description  = <<-DESC
 			WSOne_CategoryWSOne_CategoryWSOne_CategoryWSOne_CategoryWSOne_Category
